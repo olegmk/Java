@@ -8,8 +8,8 @@ public class App
 
     public static void main( String[] args )
     {
-        String cnt;
-        Country country1 = new Country("Germany");
+        //String cnt;
+        //Country country1 = new Country("Germany");
 
 
         Continent continent;
@@ -20,11 +20,14 @@ public class App
         Continent NewZelland = Continent.AUSTRALLIA;
         Continent China = Continent.ASIA;
 
-        /*System.out.println("Please enter country from list: Ukraine, Germany, Kanada, Columbia, NewZelland");
-        Scanner country = new Scanner(System.in);
-        String cnt = country.nextLine();*/
+        System.out.println("Ukraine is " + Ukraine);
+        System.out.println("Germany is " + Germany);
+        System.out.println("Kanada is " + Kanada);
+        System.out.println("Columbia is " + Columbia);
 
-        System.out.println(country1.getCountry());
+
+        /*System.out.println(country1.getCountry());
+        System.out.println(Germany);
 
         if (country1.equals(Germany)){
             System.out.println(Germany);
@@ -33,7 +36,7 @@ public class App
         //}
         else {
             System.out.println("Country out of list");
-        }
+        }*/
 
     }
 
